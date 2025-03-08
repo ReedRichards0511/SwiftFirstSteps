@@ -27,7 +27,7 @@ struct TextExample: View {
             Text("El mau mau mau mau")
                 .frame(width: 150)
                 .lineLimit(3)
-                .lineSpacing(12.3	)
+                .lineSpacing(12.3)
         }
     }
 }
