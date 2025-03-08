@@ -66,8 +66,61 @@ struct PlayWihtFlex:View {
         
     }
 }
+struct ExerciceOne:View {
+    var body: some View {
+        VStack {
+            HStack {
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(height: 100)
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .frame(height: 100)
+                Rectangle()
+                    .foregroundColor(.yellow)
+                    .frame(height: 100)
+            }
+            HStack {
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .frame(height: 100)
+            }
+            HStack {
+                Circle()
+                    .foregroundColor(.green)
+                    .frame(height: 150)
+                Rectangle()
+                    .frame(width: 100, height: 260)
+                Circle()
+                    .foregroundColor(.indigo)
+                    .frame(height: 150)
+            } .padding(2)
+            
+            HStack {
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .frame(height: 100)
+            }
+            HStack {
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(height: 100)
+                Rectangle()
+                    .foregroundColor(.orange)
+                    .frame(height: 100)
+                Rectangle()
+                    .foregroundColor(.yellow)
+                    .frame(height: 100)
+            }
+        }
+        
+            .background(.red)
+            
+        
+    }
+}
 
 
 #Preview {
-    PlayWihtFlex()
+    ExerciceOne()
 }
