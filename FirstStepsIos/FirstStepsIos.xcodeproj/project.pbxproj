@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		156825712D7D021600B5D5EE /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156825702D7D021600B5D5EE /* ButtonExample.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		156825222D7CD78E00B5D5EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		156825112D7CD78B00B5D5EE /* FirstStepsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstStepsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156825212D7CD78E00B5D5EE /* FirstStepsIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstStepsIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1568252B2D7CD78E00B5D5EE /* FirstStepsIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstStepsIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		156825702D7D021600B5D5EE /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		156825082D7CD78B00B5D5EE = {
 			isa = PBXGroup;
 			children = (
+				156825702D7D021600B5D5EE /* ButtonExample.swift */,
 				156825132D7CD78B00B5D5EE /* FirstStepsIos */,
 				156825242D7CD78E00B5D5EE /* FirstStepsIosTests */,
 				1568252E2D7CD78E00B5D5EE /* FirstStepsIosUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156825712D7D021600B5D5EE /* ButtonExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
