@@ -11,7 +11,7 @@ import SwiftUI
 struct FirstStepsIosApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            Exercise1()
         }
     }
 }

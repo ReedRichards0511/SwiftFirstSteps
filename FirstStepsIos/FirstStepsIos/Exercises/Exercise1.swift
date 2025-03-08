@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Exersice1: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
