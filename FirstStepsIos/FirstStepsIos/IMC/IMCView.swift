@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct IMCView: View {
+    
+    
+    
     var body: some View {
-        Text("IMC Works!")
+        VStack{
+            
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.backgroundApp)
+        //.navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .principal, content: {
+                Text("IMC calculator").foregroundColor(.white)
+            })
+        }
+            
     }
 }
 
