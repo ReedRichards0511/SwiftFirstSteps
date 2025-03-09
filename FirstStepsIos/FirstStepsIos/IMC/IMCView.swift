@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  IMCView.swift
 //  FirstStepsIos
 //
 //  Created by ReedRichards on 8/3/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct IMCView: View {
     var body: some View {
-        TextFieldExample()
+        Text("IMC Works!")
     }
 }
 
 #Preview {
-    MainView()
+    IMCView()
 }
